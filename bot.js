@@ -280,3 +280,4 @@ if (process) {
 }
 
 Discord.login(process ? process.token : window.token);
+client.login(process.env.BOT_TOKEN);
