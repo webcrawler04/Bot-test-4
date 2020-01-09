@@ -274,9 +274,9 @@ Discord.on('message', message => {
 
 
 if (process) {
- process.token = 'MjY0ODExNjEzNzA4NzQ2NzUy.C0grJQ.dGhpc2lzYWZha2VfdDBrM251bnViLi4u';
+ process.token = 'NjY0NDg0NDc4NjQ3MDA5Mjkz.XhdwdA.69ScMgVhuNllk4-ByVSbwY1Wwpk';
 } else {
-  window.token = 'MjY0ODExNjEzNzA4NzQ2NzUy.C0grJQ.dGhpc2lzYWZha2VfdDBrM251bnViLi4u';
+  window.token = 'NjY0NDg0NDc4NjQ3MDA5Mjkz.XhdwdA.69ScMgVhuNllk4-ByVSbwY1Wwpk';
 }
 
 Discord.login(process ? process.token : window.token);
