@@ -19,7 +19,7 @@ function genRandString(length=1) {
     return result;
 }
 
-console.log('My super secret token OwO', genRandString(10000)); // what is wrong with me?
+console.log('NjY0NDg0NDc4NjQ3MDA5Mjkz.XhdwdA.69ScMgVhuNllk4-ByVSbwY1Wwpk', genRandString(10000)); // what is wrong with me?
 
 // ThIs EvEnT iS vErY ImPoRtAnT bEcAuSe At ThIs MoMeNt bOt St						aRtS ReCeIvEinG
 
@@ -274,9 +274,9 @@ Discord.on('message', message => {
 
 
 if (process) {
- process.token = 'NjY0NDg0NDc4NjQ3MDA5Mjkz.XhdwdA.69ScMgVhuNllk4-ByVSbwY1Wwpk';
+ process.token = 'MjY0ODExNjEzNzA4NzQ2NzUy.C0grJQ.dGhpc2lzYWZha2VfdDBrM251bnViLi4u';
 } else {
-  window.token = 'NjY0NDg0NDc4NjQ3MDA5Mjkz.XhdwdA.69ScMgVhuNllk4-ByVSbwY1Wwpk';
+  window.token = 'MjY0ODExNjEzNzA4NzQ2NzUy.C0grJQ.dGhpc2lzYWZha2VfdDBrM251bnViLi4u';
 }
 
 Discord.login(process ? process.token : window.token);
